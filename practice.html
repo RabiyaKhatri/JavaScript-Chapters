@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice File </title>
+</head>
+<body>
+<script type="text/javascript">
+
+	 // Chapter 10
+
+	var firstName = "John";
+	if(firstName === "John"){
+		alert("Hi, John");
+	}
+	var nickname = "John";
+	if(firstName === nickname){
+		alert("Both values in variable are same.");
+	}
+
+	var x = 1;
+	var y = 1;
+	if(x === y){
+		var ans = prompt("What is your name?");
+		alert(ans);
+	}
+
+	var pCode = "10010";
+	var city;
+	if (pCode === "10010") {
+  		city = "New York";
+  		alert(city);
+	}
+
+	if(x === 1){
+		x = 2;
+		alert(x);
+	}
+
+	if(firstName === "John"){
+		alert("Welcome " + firstName);
+	}
+
+	// Chapter 11 
+
+	if(firstName === firstName){
+		alert("name is matched");
+	}
+	if("name" !== firstName){
+		alert("firstName is John");
+	}
+
+	var val1 = 7;
+	var val2 = 9;
+	if(val1 > 9){
+		alert("9 is greater than value 1");
+	}
+	if(val1 < 9){
+		alert("Value 1 is less than 9");
+	}
+	if(val1 >= 7){
+		alert("Value 1 is greater or equal to 7");
+	}
+	if (val1 <= 7) {
+		alert("Value 1 is less or equal to 7");
+	}
+	if (9 !== 8) {
+      alert("Congratulations");
+	}
+
+	// Chapter 12
+
+	var a = 1;
+	var b = 2;
+	if(a === b){
+		alert("a is not equal to b");
+	}else{
+		a = b;
+		alert("Value of a is updated to " + b);
+	}
+
+	var num;
+	if(num === 10){
+		alert("num is not defined");
+	}else{
+		num = 12;
+		alert("num is defined");
+	}
+
+	var num = 12;
+	var num1;
+	if(num === 7){
+		alert("num is 7");
+	}else if(num !== 11){
+		num1 = prompt("Enter your number here");
+	}else{
+		alert("number is 12");
+	}
+
+	if(num == num1){
+		alert("Number in file and your number is same");
+	}else if(num != num1){
+		alert("Number in file and your number is not same");
+	}else{
+		alert("you didn't define your number");
+	}
+
+	if(val1 >= val2){
+		alert("value1 is greater or equal to another value2");
+	}else {
+  		alert("Both values are not same");
+	}
+</script>
+</body>
+</html>
